@@ -22,7 +22,7 @@
 1. **Clona el repositorio**
 
    ```bash
-   git clone https://github.com/tuUsuario/kon.git
+   git clone https://github.com/gelmer023/kon.git
    cd kon
    ```
 

@@ -11,7 +11,7 @@
 * **Menú principal** con opciones de inicio, tutorial y salida
 * **Tutorial** rápido sobre controles y objetivos
 * **Mecánica de dos láseres** saliendo de cada ala de la nave
-* **Sistema de niveles**: cada 20 × *nivel* puntos subes de fase
+* **Sistema de niveles**: cada 200 × *nivel* puntos subes de fase
 * **Enemigos variados** y explosiones gráficas al impactar
 * **Contador de puntos** y pantalla de Game Over
 
@@ -43,9 +43,9 @@
    ```
 
    > Si no existe `requirements.txt`, simplemente:
-   >
-   > ```bash
-   > ```
+   
+   ```bash
+    ```
 
    pip install pygame
 
@@ -99,7 +99,7 @@ python main.py
 
    * Enemigos aparecen en intervalos variables según tu nivel.
    * Cada golpe con un láser otorga **10 puntos**.
-   * Al llegar a **20 × *nivel*** puntos subes de fase y los enemigos ganan variedad y velocidad.
+   * Al llegar a **200 × *nivel*** puntos subes de fase y los enemigos ganan variedad y velocidad.
 4. Si un enemigo choca contra tu nave → **Game Over**.
 5. En pantalla de Game Over, presiona **ENTER** para reiniciar o **ESC** para salir.
 
